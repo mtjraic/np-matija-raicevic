@@ -57,12 +57,11 @@ Sva tri testa su prošla. Ruff provjera završena je bez prijavljenih problema.
 
 ## Upotreba AI asistenta
 
-Za pomoć sam koristio ChatGPT. Poslao sam sliku zadatka uz upit:
-„ovo cemo morat postupno uraditi korak po korak sve da mi objasnis“.
+AI asistenta (chatgpt) koristio sam za smjernice pri pripremi okruženja, predlog funkcije `prosjecna_cijena` i odgovarajućih testova.
 
-Kroz nastavak razgovora dobio sam objašnjenja za pripremu okruženja,
-kod funkcije i testove. Kod sam sačuvao u projektu i provjerio
-pokretanjem pytest testova i Ruff provjere.
+Sažetak zahtjeva upućenog asistentu: implementirati funkciju koja računa prosječnu vrijednost liste cijena, obrađuje slučaj prazne liste i priložiti pytest testove.
+
+Predloženo rješenje sam pregledao i provjerio pokretanjem testova i Ruff provjere. Funkcija računa prosjek dijeljenjem zbira cijena njihovim brojem, dok provjera prazne liste sprečava dijeljenje nulom. Uočena ograničenja i mogućnosti dopune navedeni su u nastavku.
 
 ## Uočena ograničenja generisanog koda
 
